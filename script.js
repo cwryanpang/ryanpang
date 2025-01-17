@@ -23,7 +23,7 @@ const roles = [
   "UX Designer",
   "System Analyst",
   "Data Analyst",
-  "Project Manager"
+  "Project Manager",
   "Digital Marketer"
 ];
 
