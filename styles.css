@@ -319,4 +319,24 @@ function typeAnimation() {
 // Start the typing effect
 typeAnimation();
 
+#typewriter {
+  /* The “cursor” is just a right border */
+  border-right: 2px solid #333; 
+  /* Make the border blink (transparent → solid → transparent) */
+  animation: blink-caret 0.8s steps(1) infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-container {
+  display: inline-block;
+  min-width: 16ch; 
+  white-space: nowrap; 
+  overflow: hidden;
+  vertical-align: bottom;
+}
 
