@@ -55,6 +55,7 @@ body {
   background-color: #FADA5E; /* Light Yellow or your chosen shade */
   padding: 4rem 2rem;
   text-align: left;
+  margin: 0;
 }
 
 .hero-text h1 {
