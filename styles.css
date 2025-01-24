@@ -152,13 +152,17 @@ body {
 
 .work-card {
   background-color: #8E44AD; /* Purple, adjust to your exact shade */
-  margin: 1rem auto 3rem auto;
+  margin: 1rem auto;
   max-width: 600px;
   color: #fff;
   position: relative;
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 8px 8px 0 #000; /* Black shadow with offset */
+}
+
+.work-card:not(:last-child) {
+  margin-bottom: 5rem;
 }
 
 .work-number {
