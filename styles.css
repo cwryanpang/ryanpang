@@ -19,7 +19,7 @@ body {
   background-color: #3A5599; /* Blue header */
   padding: 1rem 2rem;
   position: relative;
-  z-index: 1; 
+  z-index: 2; 
 }
 
 .logo-section {
@@ -58,10 +58,10 @@ body {
   padding: 10rem 2rem;
   text-align: left;
   margin: 0; 
-  margin-top: -20px;   /* Example negative margin if you're deliberately overlapping */
+  margin-top: -100px;   /* Example negative margin if you're deliberately overlapping */
   padding-top: 60px;   /* Adjust so text isn’t hidden under the header */
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 .hero-text h1 {
