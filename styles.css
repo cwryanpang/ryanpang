@@ -12,8 +12,8 @@ html, body {
   background-color: #FADA5E; /* Or whatever color you want */
   background: linear-gradient(
     to bottom,
-    #3A5599 0 160px, 
-    #FADA5E 160px 100%
+    #3A5599 0 1px, 
+    #FADA5E 1px 100%
   );
 }
 
