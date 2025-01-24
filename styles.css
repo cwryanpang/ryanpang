@@ -10,6 +10,11 @@ html, body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   background-color: #FADA5E; /* Or whatever color you want */
+  background: linear-gradient(
+    to bottom,
+    #3A5599 0 160px, 
+    #FADA5E 160px 100%
+  );
 }
 
 body {
