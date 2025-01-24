@@ -2,162 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta 
-    name="viewport" 
-    content="width=device-width, initial-scale=1.0" 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Pang - Portfolio</title>
+  <!-- Optional: Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
   />
-  <meta
-    name="description"
-    content="A personal portfolio to showcase projects and skills."
-  />
-  <title>Ryan's Space</title>
-
-
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Header / Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">MyPortfolio</div>
-      <ul class="nav-menu" id="nav-menu">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <!-- Hamburger icon for mobile -->
-      <div class="hamburger" id="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Hello, I'm <span class="highlight">Ryan Pang</span>.</h1>
-      <p class="subheading">
-        I’m a passionate 
-        <span class="typing-container">
-          <strong id="typewriter"></strong>
-        </span>
-        from Toronto.
-      </p>
-      <a href="#projects" class="btn primary-btn">View My Work</a>
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="logo-section">
+      <!-- If you want an actual image logo, replace this with <img src="images/logo.png" alt="Logo" /> -->
+      <div class="logo-circle">R</div>
+      <!-- Or simply an "R" text in a circle, as in your design -->
     </div>
-  </section>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact me</a></li>
+      <li><a href="#">Download CV</a></li>
+    </ul>
+  </nav>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <img
-        src="https://via.placeholder.com/150"
-        alt="Profile Picture"
-        class="profile-img"
-      />
-      <div>
-        <p>
-          Hello! I'm Ryan Pang, a business analyst who loves building
-          applications that solve real-world problems. I enjoy 
-          working with [Your Favorite Technologies].
-        </p>
-        <p>
-          In my free time, I like to [Some Hobbies or Interests].
-          I’m always eager to learn new skills and collaborate on exciting projects.
-        </p>
+  <!-- ========== HERO / HOME SECTION ========== -->
+  <section id="home" class="hero-section">
+    <div class="hero-text">
+      <h1>Hello, I’m Ryan</h1>
+      <h3>Business Analyst</h3>
+      <div class="hero-buttons">
+        <a href="#" class="btn black-btn">Hire me</a>
+        <a href="#" class="btn black-btn">Download CV</a>
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <!-- Project 1 -->
-      <div class="project-card">
-        <img
-          src="https://via.placeholder.com/300x200"
-          alt="Project 1 Preview"
-          class="project-image"
-        />
-        <div class="project-info">
-          <h3>Project Title 1</h3>
-          <p>
-            Brief description of your project. Built with [Tech Stack].
-          </p>
-          <a
-            href="https://github.com/yourusername/project-1"
-            class="btn secondary-btn"
-            target="_blank"
-            >View Code</a
-          >
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-card">
-        <img
-          src="https://via.placeholder.com/300x200"
-          alt="Project 2 Preview"
-          class="project-image"
-        />
-        <div class="project-info">
-          <h3>Project Title 2</h3>
-          <p>
-            Brief description of your project. Built with [Tech Stack].
-          </p>
-          <a
-            href="https://github.com/yourusername/project-2"
-            class="btn secondary-btn"
-            target="_blank"
-            >View Code</a
-          >
-        </div>
-      </div>
-      <!-- Add more projects as needed -->
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="about-section">
+    <h2>About me</h2>
+    <h3>Business Analyst</h3>
     <p>
-      Interested in collaborating or just want to say hi? 
-      Feel free to send me a message on any of the platforms below.
+      I am a Business Analysis student at George Brown College in Toronto, Canada,  
+      currently pursuing an 8-month postgraduate program in Information Systems  
+      Business Analysis. With a strong interest in bridging the gap between  
+      business needs and technical solutions, I bring hands-on experience  
+      in business analysis, particularly in the retail sector.
     </p>
-    <div class="contact-links">
-      <a
-        href="mailto:your.email@example.com"
-        target="_blank"
-        class="btn secondary-btn"
-        >Email</a
-      >
-      <a
-        href="https://www.linkedin.com/in/yourusername/"
-        target="_blank"
-        class="btn secondary-btn"
-        >LinkedIn</a
-      >
-      <a
-        href="https://github.com/yourusername"
-        target="_blank"
-        class="btn secondary-btn"
-        >GitHub</a
-      >
+    <div class="about-buttons">
+      <a href="#" class="btn black-btn">Hire me</a>
+      <a href="#" class="btn black-btn">Download CV</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>
-      &copy; <span id="year"></span> Your Name. All rights reserved.
-    </p>
-  </footer>
+  <!-- ========== MY WORK SECTION ========== -->
+  <section class="work-section">
+    <h2>My Work</h2>
 
+    <div class="work-card">
+      <div class="work-number">1</div>
+      <div class="work-content">
+        <h3>Business Analysis</h3>
+        <p>
+          Crafting captivating interfaces that resonate. From wireframes to  
+          polished designs, I make sure your digital presence stands out  
+          with user-centric creativity.
+        </p>
+        <a href="#" class="btn learn-btn">Learn More</a>
+      </div>
+    </div>
+
+    <div class="work-card">
+      <div class="work-number">2</div>
+      <div class="work-content">
+        <h3>UX / UI Design</h3>
+        <p>
+          Turning app ideas into reality. As a Flutter developer, I build  
+          sleek, cross-platform applications for a seamless user experience  
+          and efficient performance.
+        </p>
+        <a href="#" class="btn learn-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT PROMPT SECTION ========== -->
+  <section class="contact-prompt">
+    <h2>If You have any Query or Project ideas feel free to</h2>
+    <a href="#contact" class="btn contact-btn">Contact me</a>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="contact-section">
+    <h2>Ryan Pang</h2>
+    <p>Let’s work together!</p>
+    <ul class="contact-info">
+      <li><strong>Phone:</strong> +1 (416) 877-8618</li>
+      <li><strong>Email:</strong> cw.ryanpang@gmail.com</li>
+    </ul>
+  </section>
 
 </body>
 </html>
