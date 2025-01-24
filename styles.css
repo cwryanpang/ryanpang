@@ -51,15 +51,11 @@ body {
 }
 
 /* ========== HERO SECTION ========== */
-.hero {
-  margin: 0;
-  /* or at least margin-top: 0; */
-}
-
 .hero-section {
   background-color: #FADA5E; /* Light Yellow or your chosen shade */
   padding: 10rem 2rem;
   text-align: left;
+  margin: 0; 
   margin-top: -20px;   /* Example negative margin if you're deliberately overlapping */
   padding-top: 60px;   /* Adjust so text isn’t hidden under the header */
 }
